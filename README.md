@@ -6,7 +6,9 @@ Here's the design on Figma - [GDG Aba Website UI](https://www.figma.com/proto/QZ
 
 ## About GDG Aba
 
-Google Developer Groups (GDGs) are community-run developer groups focused on Google technologies. Our aim is to facilitate knowledge sharing, project collaboration, and engaging discussions related to Google technologies and web development. GDG Aba brings together developers and tech enthusiasts from Aba and its surrounding areas.
+Google Developer Groups (GDGs) are community-run developer groups focused on Google technologies. Our aim is to facilitate knowledge sharing, project collaboration, and engaging discussions related to Google technologies and web development.
+
+GDG Aba brings together developers and tech enthusiasts from Aba and its surrounding areas. Join us on [Slack](https://join.slack.com/t/gdgaba/shared_invite/zt-1wewkw2c6-fnRLc9T7XCSoiIrOtTGNcQ) and WhatsApp.
 
 ## Contribution Guidelines
 
