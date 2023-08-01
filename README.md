@@ -2,6 +2,8 @@
 
 Welcome to the GDG Aba Website Frontend repository! This open-source project aims to foster collaboration in building and maintaining the frontend of GDG Aba's website.
 
+Here's the design on Figma - [GDG Aba Website UI](https://www.figma.com/proto/QZ3HbsJlTJ67o2uhCPFo9w/GDG-Aba?page-id=81%3A925&type=design&node-id=81-926&viewport=1270%2C873%2C0.27&scaling=min-zoom&starting-point-node-id=81%3A926)
+
 ## About GDG Aba
 
 Google Developer Groups (GDGs) are community-run developer groups focused on Google technologies. Our aim is to facilitate knowledge sharing, project collaboration, and engaging discussions related to Google technologies and web development. GDG Aba brings together developers and tech enthusiasts from Aba and its surrounding areas.
