@@ -1,38 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GDG Aba Website Frontend Repository
 
-## Getting Started
+Welcome to the GDG Aba Website Frontend repository! This open-source project aims to foster collaboration in building and maintaining the frontend of GDG Aba's website.
 
-First, run the development server:
+Here's the design on Figma - [GDG Aba Website UI](https://www.figma.com/proto/QZ3HbsJlTJ67o2uhCPFo9w/GDG-Aba?page-id=81%3A925&type=design&node-id=81-926&viewport=1270%2C873%2C0.27&scaling=min-zoom&starting-point-node-id=81%3A926)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## About GDG Aba
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Google Developer Groups (GDGs) are community-run developer groups focused on Google technologies. Our aim is to facilitate knowledge sharing, project collaboration, and engaging discussions related to Google technologies and web development. GDG Aba brings together developers and tech enthusiasts from Aba and its surrounding areas.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contribution Guidelines
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+We appreciate contributions from developers of all levels. To contribute to the GDG Aba Website Frontend, follow these steps:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork the `gdg-aba-website` repository by clicking the "Fork" button at the top right corner of this page. This creates a copy of the repository in your GitHub account.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
 
-## Learn More
+   ```bash
+   git clone https://github.com/<your-username>/gdg-aba-website.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Change into the project directory:
+
+   ```bash
+   cd gdg-aba-website
+   ```
+
+4. Ensure you have Node.js and npm (or Yarn) installed, then install the necessary dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+5. Create a new branch for your contribution:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+6. Implement your changes and improvements using Next.js and TailwindCSS.
+
+7. Test your changes locally to ensure everything works as expected:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+8. Visit `http://localhost:3000` in your web browser to view the website locally.
+
+9. Commit your changes with a descriptive commit message:
+
+   ```bash
+   git commit -m "Add: description of your changes"
+   ```
+
+10. Push the changes to your forked repository:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+11. Open a pull request (PR) from your branch to the `main` branch of the original `gdg-aba-website` repository. Provide a clear title and description of your changes in the PR.
+
+12. The maintainers will review your PR and provide feedback if necessary.
+
+13. Once your PR is approved, it will be merged into the `main` branch of the original repository. Congratulations on your contribution!
+
+## Code Style
+
+We adhere to [best practices](https://mitcommlab.mit.edu/broad/commkit/coding-mindset/) and [code style conventions](https://medium.com/@mirazhs/naming-conventions-in-next-js-boosting-seo-and-code-maintainability-d4150fe7e6e) for Next.js and TailwindCSS development. Please ensure your code follows these guidelines for consistency and maintainability.
+
+To learn more about [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/), check out the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [TailwindCSS Documentation](https://tailwindcss.com/docs/) - learn about TailwindCSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Issues and Feedback
 
-## Deploy on Vercel
+If you encounter any issues, have ideas for improvements, or want to provide feedback, please feel free to open an issue in the repository. We appreciate your feedback and involvement in making GDG Aba's website frontend even better!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀
