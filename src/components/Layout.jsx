@@ -14,11 +14,7 @@ export default function Layout({
         <title>{`GDG Aba - ${title}`}</title>
       </Head>
       <Header />
-      <main
-        className={`flex min-h-screen flex-col items-center justify-between p-24`}
-      >
-        {children}
-      </main>
+      <main className={`min-h-screen`}>{children}</main>
       <footer></footer>
     </>
   );

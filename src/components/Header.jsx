@@ -5,7 +5,7 @@ import { logo } from '@/assets';
 
 export default function Header() {
   return (
-    <header className="p-5 flex items-center justify-between w-full max-w-5xl mx-auto text-gray-150">
+    <header className="p-5 flex items-center justify-between w-full max-w-5xl mx-auto text-custom-gray-300">
       {/* Logo/Brand */}
       <div className="flex gap-2 items-center">
         <div>
