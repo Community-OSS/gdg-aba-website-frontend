@@ -1,8 +1,5 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
-
-const font = Inter({ subsets: ['latin'] });
 
 export default function Layout({
   children,
@@ -18,7 +15,7 @@ export default function Layout({
       </Head>
       <Header />
       <main
-        className={`flex min-h-screen flex-col items-center justify-between p-24 ${font.className}`}
+        className={`flex min-h-screen flex-col items-center justify-between p-24`}
       >
         {children}
       </main>
