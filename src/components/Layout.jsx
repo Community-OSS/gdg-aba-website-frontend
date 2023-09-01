@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
-
-import React from 'react';
-import Header from './Header';
+import Header from '@/components/Header';
 
 const font = Inter({ subsets: ['latin'] });
 

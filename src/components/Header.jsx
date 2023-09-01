@@ -1,16 +1,39 @@
 import Image from 'next/image';
-import React from 'react';
+import Link from 'next/link';
+import Button from '@/components/Button';
+import { logo } from '@/assets';
 
 export default function Header() {
   return (
-    <header>
+    <header className="p-5 flex items-center justify-between w-full max-w-5xl mx-auto text-gray-150">
       {/* Logo/Brand */}
-      <div>
-        <Image src={`/GDG.png`} alt="GDG logo" width={44} height={21} />
+      <div className="flex gap-2 items-center">
+        <div>
+          <Image src={logo} alt="GDG logo" />
+        </div>
+        <div className="">GDG Aba</div>
       </div>
 
       {/* Navigation */}
-      <nav></nav>
+      <nav role="navigation" className="md:flex gap-10 md:items-center">
+        <div>
+          <Link href={`/about`}>About</Link>
+        </div>
+        <div>
+          <Link href={`/events`}>Events</Link>
+        </div>
+        <div>
+          <Link href={`/talents`}>Talents</Link>
+        </div>
+        <div>
+          <Link href={`/community-projects`}>Community projects</Link>
+        </div>
+        <div>
+          <Link href={`/become-a-member`}>
+            <Button>Become a member</Button>
+          </Link>
+        </div>
+      </nav>
     </header>
   );
 }
