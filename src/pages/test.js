@@ -1,5 +1,6 @@
 import Layout from '@/components/Layout';
-import { DefaultCard } from '@/components/Cards';
+import { DefaultCard, OrganizerCard } from '@/components/Cards';
+import { organizers } from '@/lib/data';
 
 export default function Test() {
   return (
@@ -19,6 +20,17 @@ export default function Test() {
             title={`Speaker/Session Talk`}
             date={`October 2021`}
           />
+
+          {organizers.map((organizer) => (
+            <OrganizerCard
+              key={organizer.id}
+              name={organizer.name}
+              role={organizer.role}
+              twitter={organizer.twitter}
+              facebook={organizer.facebook}
+              instagram={organizer.instagram}
+            />
+          ))}
         </div>
       </section>
     </Layout>
