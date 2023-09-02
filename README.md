@@ -14,18 +14,18 @@ GDG Aba brings together developers and tech enthusiasts from Aba and its surroun
 
 We appreciate contributions from developers of all levels. To contribute to the GDG Aba Website Frontend, follow these steps:
 
-1. Fork the `gdg-aba-website` repository by clicking the "Fork" button at the top right corner of this page. This creates a copy of the repository in your GitHub account.
+1. Fork the `gdg-aba-website-frontend` repository by clicking the "Fork" button at the top right corner of this page. This creates a copy of the repository in your GitHub account.
 
 2. Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
 
    ```bash
-   git clone https://github.com/<your-username>/gdg-aba-website.git
+   git clone https://github.com/<your-username>/gdg-aba-website-frontend.git
    ```
 
 3. Change into the project directory:
 
    ```bash
-   cd gdg-aba-website
+   cd gdg-aba-website-frontend
    ```
 
 4. Ensure you have Node.js and npm (or Yarn) installed, then install the necessary dependencies:
@@ -66,7 +66,7 @@ We appreciate contributions from developers of all levels. To contribute to the 
     git push origin feature/your-feature-name
     ```
 
-11. Open a pull request (PR) from your branch to the `main` branch of the original `gdg-aba-website` repository. Provide a clear title and description of your changes in the PR.
+11. Open a pull request (PR) from your branch to the `main` branch of the original `gdg-aba-website-frontend` repository. Provide a clear title and description of your changes in the PR.
 
 12. The maintainers will review your PR and provide feedback if necessary.
 
@@ -84,6 +84,6 @@ To learn more about [Next.js](https://nextjs.org/) and [TailwindCSS](https://tai
 
 ## Issues and Feedback
 
-If you encounter any issues, have ideas for improvements, or want to provide feedback, please feel free to open an issue in the repository. We appreciate your feedback and involvement in making GDG Aba's website frontend even better!
+If you encounter any issues, have ideas for improvements, or want to provide feedback, please feel free to open an issue in the repository. We appreciate your feedback and involvement in improving GDG Aba's website frontend!
 
 Happy coding! 🚀
