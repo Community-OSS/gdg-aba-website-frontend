@@ -8,3 +8,14 @@ export const organizers = [
     instagram: '/',
   },
 ];
+
+export const talents = [
+  {
+    id: 1,
+    name: 'James Chimdindu',
+    role: 'Product Designer',
+    skills: 'Java, XML, Technical Writing',
+    dribbble: '/',
+    facebook: '/',
+  },
+];
