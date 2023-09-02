@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
+import Footer from './Footer';
 
 export default function Layout({
   children,
@@ -15,7 +16,7 @@ export default function Layout({
       </Head>
       <Header />
       <main className={`min-h-screen`}>{children}</main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 // Community Talent Card
@@ -26,11 +25,31 @@ export function TalentCard({
         </div>
 
         <div className="text-custom-green flex gap-[10px] w-max mx-auto">
-          {twitter && <Link href={twitter}>TW</Link>}
-          {facebook && <Link href={facebook}>FB</Link>}
-          {instagram && <Link href={instagram}>IG</Link>}
-          {dribbble && <Link href={dribbble}>DB</Link>}
-          {github && <Link href={github}>GH</Link>}
+          {twitter && (
+            <a href={twitter} target="_blank" rel="noopener noreferrer">
+              TW
+            </a>
+          )}
+          {facebook && (
+            <a href={facebook} target="_blank" rel="noopener noreferrer">
+              FB
+            </a>
+          )}
+          {instagram && (
+            <a href={instagram} target="_blank" rel="noopener noreferrer">
+              IG
+            </a>
+          )}
+          {dribbble && (
+            <a href={dribbble} target="_blank" rel="noopener noreferrer">
+              DB
+            </a>
+          )}
+          {github && (
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              GH
+            </a>
+          )}
         </div>
       </div>
     </div>
@@ -52,9 +71,15 @@ export function OrganizerCard({ facebook, instagram, name, role, twitter }) {
         </div>
 
         <div className="text-custom-blue flex gap-[10px] w-max mx-auto">
-          <Link href={twitter}>TW</Link>
-          <Link href={facebook}>FB</Link>
-          <Link href={instagram}>IG</Link>
+          <a href={twitter} target="_blank" rel="noopener noreferrer">
+            TW
+          </a>
+          <a href={facebook} target="_blank" rel="noopener noreferrer">
+            FB
+          </a>
+          <a href={instagram} target="_blank" rel="noopener noreferrer">
+            IG
+          </a>
         </div>
       </div>
     </div>
