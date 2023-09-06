@@ -5,7 +5,7 @@ import { logo } from '@/assets';
 
 export default function Header() {
   return (
-    <header className="text-custom-gray-300">
+    <header className="text-custom-gray-300 sticky left-0 top-0 z-50 border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
       <div className="p-5 flex items-center justify-between w-full max-w-5xl mx-auto">
         {/* Logo/Brand */}
         <Link href={`/`} className="flex gap-2 items-center">
@@ -16,7 +16,10 @@ export default function Header() {
         </Link>
 
         {/* Navigation */}
-        <nav role="navigation" className="md:flex gap-10 md:items-center">
+        <nav
+          role="navigation"
+          className="hidden md:flex gap-10 md:items-center"
+        >
           <div>
             <Link href={`/about`}>About</Link>
           </div>

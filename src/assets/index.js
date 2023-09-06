@@ -1,5 +1,6 @@
 import localFont from 'next/font/local';
 import logo from '@/assets/images/GDG.png';
+import heroAnimation from '@/assets/images/hero1@1x-60fps.gif';
 
 const fonts = localFont({
   src: [
@@ -21,4 +22,4 @@ const fonts = localFont({
   ],
 });
 
-export { logo, fonts };
+export { logo, fonts, heroAnimation };
