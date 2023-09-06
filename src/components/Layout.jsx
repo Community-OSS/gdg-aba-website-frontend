@@ -15,7 +15,7 @@ export default function Layout({
         <title>{`GDG Aba - ${title}`}</title>
       </Head>
       <Header />
-      <main className={`min-h-screen`}>{children}</main>
+      <main className={`min-h-screen custom-bg-gradient`}>{children}</main>
       <Footer />
     </>
   );
