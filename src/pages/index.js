@@ -21,10 +21,10 @@ export default function Home() {
       </Section>
 
       {/* About GDG Aba */}
-      <Section title={`About GDG Aba`}></Section>
+      <Section title={`About GDG Aba`} sectionId={`about`}></Section>
 
       {/* Community Talent */}
-      <Section title={`Community Talent`} boxedWidth>
+      <Section title={`Community Talent`} sectionId={`talents`} boxedWidth>
         <div className="grid md:grid-cols-2 lg:grid-cols-3">
           {talents.map((talent) => (
             <TalentCard
@@ -59,7 +59,10 @@ export default function Home() {
       </Section>
 
       {/* Community Projects */}
-      <Section title={`Community Projects`}></Section>
+      <Section
+        title={`Community Projects`}
+        sectionId={`community-projects`}
+      ></Section>
 
       {/* Newsletter */}
       <Section></Section>

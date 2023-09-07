@@ -21,19 +21,23 @@ export default function Header() {
           className="hidden md:flex gap-10 md:items-center"
         >
           <div>
-            <Link href={`/about`}>About</Link>
+            <Link href={`#about`}>About</Link>
+          </div>
+          {/* <div>
+            <Link href={`#events`}>Events</Link>
+          </div> */}
+          <div>
+            <Link href={`#talents`}>Talents</Link>
           </div>
           <div>
-            <Link href={`/events`}>Events</Link>
+            <Link href={`#community-projects`}>Community projects</Link>
           </div>
           <div>
-            <Link href={`/talents`}>Talents</Link>
-          </div>
-          <div>
-            <Link href={`/community-projects`}>Community projects</Link>
-          </div>
-          <div>
-            <Link href={`/become-a-member`}>
+            <Link
+              href={`https://gdg.community.dev/gdg-aba/`}
+              target="_blank"
+              rel={`noopener noreferrer`}
+            >
               <Button>Become a member</Button>
             </Link>
           </div>
