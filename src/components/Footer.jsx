@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { GDGLogo } from '@/assets/icons';
+import { Facebook, GDGLogo, Instagram, Twitter } from '@/assets/icons';
 
 export default function Footer() {
   return (
@@ -20,13 +20,13 @@ export default function Footer() {
 
         <div className="flex gap-[10px] justify-center">
           <a href="/" target="_blank" rel="noopener noreferrer">
-            TW
+            <Twitter />
           </a>
           <a href="/" target="_blank" rel="noopener noreferrer">
-            FB
+            <Facebook />
           </a>
           <a href="/" target="_blank" rel="noopener noreferrer">
-            IG
+            <Instagram />
           </a>
         </div>
       </div>

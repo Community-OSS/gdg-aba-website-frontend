@@ -1,3 +1,4 @@
+import { Dribbble, Facebook, GitHub, Instagram, Twitter } from '@/assets/icons';
 import { cn } from '@/lib/utils';
 
 // Community Talent Card
@@ -27,27 +28,27 @@ export function TalentCard({
         <div className="text-custom-green flex gap-[10px] w-max mx-auto">
           {twitter && (
             <a href={twitter} target="_blank" rel="noopener noreferrer">
-              TW
+              <Twitter />
             </a>
           )}
           {facebook && (
             <a href={facebook} target="_blank" rel="noopener noreferrer">
-              FB
+              <Facebook />
             </a>
           )}
           {instagram && (
             <a href={instagram} target="_blank" rel="noopener noreferrer">
-              IG
+              <Instagram />
             </a>
           )}
           {dribbble && (
             <a href={dribbble} target="_blank" rel="noopener noreferrer">
-              DB
+              <Dribbble />
             </a>
           )}
           {github && (
             <a href={github} target="_blank" rel="noopener noreferrer">
-              GH
+              <GitHub />
             </a>
           )}
         </div>
@@ -72,13 +73,13 @@ export function OrganizerCard({ facebook, instagram, name, role, twitter }) {
 
         <div className="text-custom-blue flex gap-[10px] w-max mx-auto">
           <a href={twitter} target="_blank" rel="noopener noreferrer">
-            TW
+            <Twitter />
           </a>
           <a href={facebook} target="_blank" rel="noopener noreferrer">
-            FB
+            <Facebook />
           </a>
           <a href={instagram} target="_blank" rel="noopener noreferrer">
-            IG
+            <Instagram />
           </a>
         </div>
       </div>
