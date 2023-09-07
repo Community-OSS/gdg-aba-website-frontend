@@ -17,6 +17,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+
   body {
     @apply text-lg;
   }

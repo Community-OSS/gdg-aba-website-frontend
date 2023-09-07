@@ -3,7 +3,7 @@ import { GDGLogo } from '@/assets/icons';
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-custom-blue">
+    <footer className="text-custom-blue bg-gradient-to-t from-white backdrop-blur-2xl dark:bg-zinc-800/30 dark:from-inherit">
       <div className="p-5 grid gap-10 md:flex items-center justify-between w-max md:w-full max-w-5xl mx-auto">
         <div className="flex gap-3 items-center w-full">
           {/* Logo/Brand */}
