@@ -1,9 +1,9 @@
-import { heroAnimation } from '@/assets';
+import Lottie from 'lottie-react';
+import heroAnimation from '@/assets/lotties/heroanimation_gdgaba.json';
 import { OrganizerCard, TalentCard } from '@/components/Cards';
 import Layout from '@/components/Layout';
 import Section from '@/components/Section';
 import { organizers, talents } from '@/lib/data';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <span className="text-custom-green">Grow.</span>
         </div>
         <div>
-          <Image src={heroAnimation} alt="hero animation" />
+          <Lottie animationData={heroAnimation} />
         </div>
       </Section>
 
