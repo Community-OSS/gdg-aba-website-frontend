@@ -14,6 +14,8 @@ GDG Aba brings together developers and tech enthusiasts from Aba and its surroun
 
 We appreciate contributions from developers of all levels. To contribute to the GDG Aba Website Frontend, follow these steps:
 
+1. Comment on the issue you would like to work on or create a new issue if it doesn't exist. Ensure that one of the maintainers assigns the issue to you before you proceed.
+
 1. Fork the `gdg-aba-website-frontend` repository by clicking the "Fork" button at the top right corner of this page. This creates a copy of the repository in your GitHub account.
 
 2. Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
@@ -66,7 +68,7 @@ We appreciate contributions from developers of all levels. To contribute to the 
     git push origin feature/your-feature-name
     ```
 
-11. Open a pull request (PR) from your branch to the `main` branch of the original `gdg-aba-website-frontend` repository. Provide a clear title and description of your changes in the PR.
+11. Open a pull request (PR) from your branch to the `staging` branch of the original `gdg-aba-website-frontend` repository. Provide a clear title and description of your changes in the PR.
 
 12. The maintainers will review your PR and provide feedback if necessary.
 
