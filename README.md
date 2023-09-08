@@ -2,7 +2,9 @@
 
 Welcome to the GDG Aba Website Frontend repository! This open-source project aims to foster collaboration in building and maintaining the frontend of GDG Aba's website.
 
-Here's the design on Figma - [GDG Aba Website UI](https://www.figma.com/file/QZ3HbsJlTJ67o2uhCPFo9w/GDG-Aba?type=design&node-id=224%3A1934&mode=design&t=Q4MR88S1ueEtD4Af-1)
+### Figma
+- [Prototype](https://www.figma.com/proto/QZ3HbsJlTJ67o2uhCPFo9w/GDG-Aba?page-id=81%3A925&node-id=81-926&scaling=min-zoom&starting-point-node-id=81%3A926)
+- [Main Design](https://www.figma.com/file/QZ3HbsJlTJ67o2uhCPFo9w/GDG-Aba?type=design&node-id=224%3A1934&mode=design&t=Q4MR88S1ueEtD4Af-1)
 
 ## About GDG Aba
 
